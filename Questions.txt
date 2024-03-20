@@ -25,3 +25,12 @@ How do we build the network ? (input, output) How it should look?
 How we will predict the data?
 How do we use the predictions?
 Can we predict future stock prices?
+
+What represent the features from the dataset?
+Date: This is the date when the stock market was open for trading.
+Open: This is the price of the stock when trading started for the day. It's like the starting price.
+High: This is the highest price that the stock reached during the day. It shows the highest point the stock reached in value.
+Low: This is the lowest price that the stock reached during the day. It shows the lowest point the stock reached in value.
+Close: This is the price of the stock when trading ended for the day. It's like the final price.
+Adj Close: This is the closing price of the stock, adjusted to reflect any corporate actions that may have occurred, like dividends or stock splits. It helps to compare the stock's value accurately over time.
+Volume: This is the total number of shares of the stock that were bought and sold during the day. It indicates how active trading was for that stock on that day.
