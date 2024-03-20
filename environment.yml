@@ -1,0 +1,13 @@
+name: stock-prediction-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda-forge::jupyterlab
+  - pandas
+  - tensorflow
+  - matplotlib
+  - seaborn
+  - yfinance
+  - scikit-learn

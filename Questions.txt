@@ -1,0 +1,27 @@
+Dataset:
+- we need to get a dataset 
+- we need to create a data frame to analise the data:
+- inspect the dataset and see how features look like.
+
+
+Data processing:
+- check the data for duplicates
+- check for unique data    
+- check for data integrity
+- transform the data
+
+Neural network:
+- implement RNN networks
+- train the model
+
+
+
+
+
+Questions:
+
+What type of RNN we use?
+How do we build the network ? (input, output) How it should look?
+How we will predict the data?
+How do we use the predictions?
+Can we predict future stock prices?
