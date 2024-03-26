@@ -21,12 +21,21 @@ Neural network:
 Questions:
 
 What type of RNN we use?
+- we used LSTM, SimpleRNN, GRU
 How do we build the network ? (input, output) How it should look?
+- We need to have an imput layer (rnn) with 3 dense layers, and an output with 1 value because we are only predicting Close value.
 How we will predict the data?
+- we are using only close column to train the models and we are dividing our data in smaller sequences so we can predict our price.
 How do we use the predictions?
 Can we predict future stock prices?
+- based on the patern that the model learns, we can estimate the next day price or the next few days.
+- it is hard to do accurate predictions because the price is influenced by manny other financiar factors,
+ realistic we could estimate an increase of price or decrease of price
+
+
 
 What represent the features from the dataset?
+
 Date: This is the date when the stock market was open for trading.
 Open: This is the price of the stock when trading started for the day. It's like the starting price.
 High: This is the highest price that the stock reached during the day. It shows the highest point the stock reached in value.
